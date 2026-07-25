@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* src/index.css */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Poppins", sans-serif;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
+  min-height: 100vh;
+}
+
+/* Smooth scrolling behaviour */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Chat message fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #6366f1, #8b5cf6);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.3);
+}
+
+/* Input focus glow */
+input:focus {
+  box-shadow: 0 0 5px rgba(99,102,241,0.6);
+}
+
+/* Button click effect */
+button:active {
+  transform: scale(0.95);
+}
