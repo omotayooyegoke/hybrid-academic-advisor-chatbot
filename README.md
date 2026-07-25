@@ -5,7 +5,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/omotayooyegoke/hybrid-academic-advisor-chatbot)
 ![GitHub top language](https://img.shields.io/github/languages/top/omotayooyegoke/hybrid-academic-advisor-chatbot)
 
-A **Hybrid Intelligent Academic Advisory Chatbot** developed as an MSc Systems Engineering project at the **University of Lagos**. The system combines **symbolic AI (Prolog Expert Systems)** with **Large Language Models (LLMs)** and **Retrieval-Augmented Generation (RAG)** to provide accurate, explainable, and context-aware academic advisory services.
+A **Hybrid Intelligent Academic Advisory Chatbot** developed as an SSG 816 (Expert Systems II) course project within the MSc Systems Engineering curriculum at the **University of Lagos**. The system combines **symbolic AI (Prolog Expert Systems)** with **Large Language Models (LLMs)** and **Retrieval-Augmented Generation (RAG)** to provide accurate, explainable, and context-aware academic advisory services.
 
 Unlike conventional chatbots that rely solely on either rule-based reasoning or generative AI, this system intelligently routes user queries to the most appropriate reasoning engine, ensuring both reliability and flexibility.
 
