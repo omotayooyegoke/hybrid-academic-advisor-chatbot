@@ -227,15 +227,23 @@ Example questions supported by the chatbot include:
 
 ---
 
+## Help Menu
+
+![Help Menu](docs/screenshots/help-menu.png)
+
+---
+
 ## Expert System Response
 
 ![Expert System](docs/screenshots/expert-system-response1.png)
+![Expert System](docs/screenshots/expert-system-response2.png)
 
 ---
 
 ## AI Response
 
 ![AI Response](docs/screenshots/ai-response1.png)
+![AI Response](docs/screenshots/ai-response2.png)
 
 ---
 
