@@ -223,25 +223,25 @@ Example questions supported by the chatbot include:
 
 ## Home Page
 
-![Home Page](docs/Screenshots/home-page.png)
+![Home Page](docs/screenshots/home-page.png)
 
 ---
 
 ## Expert System Response
 
-![Expert System](docs/Screenshots/expert-system-response1.png)
+![Expert System](docs/screenshots/expert-system-response1.png)
 
 ---
 
 ## AI Response
 
-![AI Response](docs/Screenshots/ai-response1.png)
+![AI Response](docs/screenshots/ai-response1.png)
 
 ---
 
 ## Recommendation Response
 
-![Recommendation](docs/Screenshots/course-recommendation.png)
+![Recommendation](docs/screenshots/course-recommendation.png)
 
 ---
 
