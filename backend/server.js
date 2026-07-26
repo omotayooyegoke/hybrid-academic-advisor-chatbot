@@ -5,6 +5,8 @@ const axios = require("axios");
 
 const app = express();
 
+const PYTHON_AI_URL = process.env.PYTHON_AI_URL || "http://127.0.0.1:8000";
+
 app.use(cors());
 app.use(express.json());
 
@@ -76,7 +78,7 @@ async function askPythonAI(question) {
   try {
 
     const response = await axios.post(
-      "http://127.0.0.1:8000/ask",
+      `${PYTHON_AI_URL}/ask`,
       {
         question: question
       }
@@ -154,7 +156,7 @@ if (
 });
 
 // Start server
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
 console.log(
