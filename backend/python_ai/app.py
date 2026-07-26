@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+import os
 from chatbot import ask
 
 app = Flask(__name__)
@@ -30,14 +31,16 @@ def ask_ai():
 
 if __name__ == "__main__":
 
+    port = int(os.environ.get("PORT", 8000))
+
     print("===================================")
     print(" MSc Systems Engineering AI Server")
     print("===================================")
-    print("Running on http://localhost:8000")
+    print(f"Running on port {port}")
     print()
 
     app.run(
         host="0.0.0.0",
-        port=8000,
+        port=port,
         debug=False
     )
