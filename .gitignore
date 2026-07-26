@@ -53,8 +53,5 @@ Thumbs.db
 # ChromaDB Vector Store
 #backend/python_ai/vector_store/
 
-# Documentation screenshots
-docs/screenshots/
-
 # Architecture working files (optional)
 #docs/architecture/*.drawio
