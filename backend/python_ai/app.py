@@ -4,6 +4,13 @@ from chatbot import ask
 
 app = Flask(__name__)
 
+@app.route("/")
+def home():
+    return jsonify({
+        "status": "running",
+        "service": "MSc Systems Engineering AI Server"
+    })
+
 
 @app.route("/ask", methods=["POST"])
 def ask_ai():
