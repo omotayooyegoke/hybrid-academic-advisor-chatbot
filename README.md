@@ -220,7 +220,28 @@ Example questions supported by the chatbot include:
 
 # Screenshots
 
-*Screenshots will be added after deployment.*
+
+## Home Page
+
+![Home Page](docs/Screenshots/home-page.png)
+
+---
+
+## Expert System Response
+
+![Expert System](docs/Screenshots/expert-system-response1.png)
+
+---
+
+## AI Response
+
+![AI Response](docs/Screenshots/ai-response1.png)
+
+---
+
+## Recommendation Response
+
+![Recommendation](docs/Screenshots/course-recommendation.png)
 
 ---
 
