@@ -20,10 +20,15 @@ const safeMessage = message
   .replace(/"/g, '\\"');
 
 const prolog = spawn("swipl", [
-"-q",
-"-s",
-PROLOG_FILE
+    "-q",
+    "-s",
+    PROLOG_FILE
 ]);
+
+prolog.on("error", (err) => {
+    console.error("Failed to start SWI-Prolog:", err.message);
+    callback("⚠️ SWI-Prolog is unavailable.");
+});
 
 let output = "";
 let error = "";

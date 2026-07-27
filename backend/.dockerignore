@@ -1,0 +1,11 @@
+node_modules
+python_ai/venv
+python_ai/vector_store
+python_ai/__pycache__
+__pycache__
+*.pyc
+.git
+.gitignore
+Dockerfile
+.dockerignore
+npm-debug.log
