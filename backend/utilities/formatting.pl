@@ -9,7 +9,7 @@
 bullet_lines([], []).
 
 bullet_lines([H|T], [Line|Rest]) :-
-    format(atom(Line), '• ~w', [H]),
+    format(atom(Line), '- ~w', [H]),
     bullet_lines(T, Rest).
 
 % -------------------------------------
@@ -60,13 +60,13 @@ format_programme(
 ~w
 
 Duration
-• ~w
+- ~w
 
 Minimum Course Units
-• ~w
+- ~w
 
 Project Units
-• ~w
+- ~w
 
 Available Specializations
 
@@ -397,30 +397,30 @@ Reply =
 Here are some examples:
 
 📘 Programme
-• What are the admission requirements?
-• How long is the programme?
-• What are the graduation requirements?
+- What are the admission requirements?
+- How long is the programme?
+- What are the graduation requirements?
 
 🎓 Specializations
-• What specializations are available?
-• Tell me about Artificial Intelligence.
-• Describe Engineering Analysis.
+- What specializations are available?
+- Tell me about Artificial Intelligence.
+- Describe Engineering Analysis.
 
 📚 Courses
-• Tell me about SSG816.
-• What courses are in Artificial Intelligence?
-• Which course teaches Robotics?
+- Tell me about SSG816.
+- What courses are in Artificial Intelligence?
+- Which course teaches Robotics?
 
 👨‍🏫 Lecturers
-• Who specializes in Artificial Intelligence?
-• Which lecturer works in Optimization?
+- Who specializes in Artificial Intelligence?
+- Which lecturer works in Optimization?
 
 🔬 Research
-• What research areas are available?
-• Who can supervise Machine Learning?
+- What research areas are available?
+- Who can supervise Machine Learning?
 
 💡 Recommendations
-• I am interested in Robotics.
-• I like Communication Networks.
+- I am interested in Robotics.
+- I like Communication Networks.
 
 You can also ask your own questions in natural language.'.
