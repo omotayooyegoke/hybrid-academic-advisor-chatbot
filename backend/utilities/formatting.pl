@@ -56,7 +56,7 @@ format_programme(
     format(
         atom(Reply),
 
-'═══════════════════
+'
 ~w
 
 Duration
@@ -71,7 +71,7 @@ Project Units
 Available Specializations
 
 ~w
-═══════════════════',
+',
 
         [
             Name,
@@ -97,7 +97,7 @@ format_course(
     format(
         atom(Reply),
 
-'════════════════════
+'
 Course Information
 
 Code
@@ -111,7 +111,7 @@ Units
 
 Specialization
 ~w
-═══════════════════',
+',
 
         [
             Code,
@@ -159,11 +159,11 @@ format_course_list(
     format(
         atom(Reply),
 
-'══════════════════
+'
 ~w
 
 ~w
-════════════════════',
+',
 
         [
             Heading,
@@ -184,11 +184,11 @@ format_heading(
     format(
         atom(Reply),
 
-'═══════════════════
+'
 ~w
 
 ~w
-════════════════════',
+',
 
         [
             Heading,
@@ -214,11 +214,11 @@ format_requirements(
     format(
         atom(Reply),
 
-'═══════════════════
+'
 ~w
 
 ~w
-════════════════════',
+',
 
         [
             Heading,
@@ -359,7 +359,7 @@ format_recommendation_report(
     format(
         atom(Reply),
 
-'═════════════════════
+'
 Recommendation
 
 Recommended Specialization
@@ -373,7 +373,7 @@ Relevant Courses
 Potential Supervisors
 
 ~w
-════════════════════',
+',
 
         [
             SpecName,
@@ -396,30 +396,30 @@ Reply =
 
 Here are some examples:
 
-📘 Programme
+Programme
 - What are the admission requirements?
 - How long is the programme?
 - What are the graduation requirements?
 
-🎓 Specializations
+Specializations
 - What specializations are available?
 - Tell me about Artificial Intelligence.
 - Describe Engineering Analysis.
 
-📚 Courses
+Courses
 - Tell me about SSG816.
 - What courses are in Artificial Intelligence?
 - Which course teaches Robotics?
 
-👨‍🏫 Lecturers
+Lecturers
 - Who specializes in Artificial Intelligence?
 - Which lecturer works in Optimization?
 
-🔬 Research
+Research
 - What research areas are available?
 - Who can supervise Machine Learning?
 
-💡 Recommendations
+Recommendations
 - I am interested in Robotics.
 - I like Communication Networks.
 
